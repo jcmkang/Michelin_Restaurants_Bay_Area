@@ -1,4 +1,4 @@
-# Michelin Guide Restaurants South Bay
+# Michelin Guide Restaurants Bay Area
 
 ## About
 This GUI application allows a user to choose multiple Michelin Guide restauarant from cities surrounding San Francisco, Cupertino, and San Jose. The user will be able to make a selection based on the City or Cuisine. When the user chooses a city or cuisine, a list of restaurants in that city or cuisine will display. When restauarnts are chosen, the application will display to the user with the restrautn's name, address, cost, and cuisine and a button to open a tab on their probser with the Micheile Guide page of the chosen restaurant. <br><br>
