@@ -16,7 +16,7 @@ The project has two parts: frontend.py and backend.py
 - TKinter
 
 ## Credit
-Professor: Clare Nguyen 
-College: De Anza 
-Course: CIS 41B (Advanced Python Programming)
-Author: James Kang, © 2023
+- Professor: Clare Nguyen
+- College: De Anza
+- Course: CIS 41B (Advanced Python Programming)
+- Author: James Kang, © 2023
