@@ -6,11 +6,15 @@ The project has two parts: frontend.py and backend.py
 - The backend.py will get data by webscraping from the Micheline Guide page. From the extracted data, a JSON file is created to store the data. The data from JSON file is then read into a SQLite Database to be used by frontend.py
 - frontend.py interacts with the user while fetching data from SQLite Databse
 
+## Running the Application
+- First, run backend.py to get the data and write the data to a SQLite Database
+- After backend.py has created 3 JSON files and 3 DB files for San Jose, Cupertino, and San Francisco
+- Run frontend.py to start the GUI application
+
 ## Source
 [Micheline Guide Restaurant- San Jose](https://guide.michelin.com/us/en/california/san-jose/restaurants)
 [Micheline Guide Restaurant- Cupertino](https://guide.michelin.com/us/en/california/cupertino/restaurants)
 [Micheline Guide Restaurant- San Francisco](https://guide.michelin.com/us/en/california/san-francisco/restaurants)
-
 
 
 ## Skills
