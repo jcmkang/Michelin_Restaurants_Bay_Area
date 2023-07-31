@@ -7,8 +7,9 @@ The project has two parts: frontend.py and backend.py
 - frontend.py interacts with the user while fetching data from SQLite Databse
 
 ## Running the Application
-- First, run backend.py to get the data, create a JSON file, and write the JSON to a SQLite Database
-- After backend.py has created 3 JSON files and 3 DB files for San Jose, Cupertino, and San Francisco, Run frontend.py to start the GUI application
+- First, run backend.py to scrape the data, create a JSON file, and combine the JSON to a SQLite Database
+- After backend.py has created the combined DB file for San Jose, Cupertino, and San Francisco..
+- Run frontend.py to start the GUI application
 
 ## Source
 - [Micheline Guide Restaurant- San Jose](https://guide.michelin.com/us/en/california/san-jose/restaurants)
