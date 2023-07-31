@@ -9,7 +9,7 @@ The project has two parts: frontend.py and backend.py
 ## Source
 [Micheline Guide Restaurant- San Jose](https://guide.michelin.com/us/en/california/san-jose/restaurants)
 
-## Skills used
+## Skills
 - Requests
 - BeautifulSoup
 - SQLite 3
