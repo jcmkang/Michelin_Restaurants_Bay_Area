@@ -1,16 +1,21 @@
 # Michelin Guide Restaurants Bay Area
 
 ## About
-This GUI application allows a user to choose multiple Michelin Guide restauarants from cities surrounding San Francisco, Cupertino, and San Jose. The user will be able to make a selection based on the City or Cuisine. When the user chooses a city or cuisine, a list of restaurants in that city or cuisine will display. When restauarnts are chosen, the application will display to the user with the restrautn's name, address, cost, and cuisine and a button to open a tab on their probser with the Micheile Guide page of the chosen restaurant. <br><br>
+This GUI application allows users to choose multiple Michelin Guide restaurants from cities surrounding San Francisco, Cupertino, and San Jose. The user can make a selection based on a city or type of cuisine. When the user chooses a city or cuisine, a list of restaurants in that city or cuisine will be displayed. Upon selecting a number of restaurants, the application will show the restaurant's name, address, cost, and cuisine, along with a button to open a tab in their browser with the Michelin Guide page of the chosen restaurant.
 
-The project has two parts: frontend.py and backend.py
-- <u>Backend.py</u> creates a database by webscraping data from 3 Bay Area cities from the Micheline Guide.
-- <u>Frontend.py</u> interacts with the user while fetching data from SQLite Databse
+The project consists of two parts: `backend.py` and `frontend.py`.
+- `backend.py`: This script creates a database by web scraping data from the Michelin Guide website. 
+- `frontend.py`: This script interacts with the user while fetching data from the SQLite Database.
 
 ## Running the Application
-- First, run backend.py to scrape the data, create a JSON file, and combine the JSON to a SQLite Database
-- After backend.py has created the combined DB file for San Jose, Cupertino, and San Francisco..
-- Run frontend.py to start the GUI application
+To run the application, follow these steps:
+1. Run `backend.py` to scrape the data, create a JSON file, and combine the JSON into a SQLite Database.
+2. Once `backend.py` has created the combined DB file for San Jose, Cupertino, and San Francisco, you are ready to proceed.
+3. Run `frontend.py` to start the GUI application and interact with it.
+
+Please ensure you have all the necessary dependencies installed before running the application.
+
+Enjoy exploring the Michelin Guide Restaurants in the Bay Area!
 
 ## Source
 - [Micheline Guide Restaurant- San Jose](https://guide.michelin.com/us/en/california/san-jose/restaurants)
